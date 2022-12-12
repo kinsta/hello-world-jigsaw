@@ -1,4 +1,5 @@
 {
+    "name": "Jigsaw",
     "private": true,
     "scripts": {
         "dev": "mix",
