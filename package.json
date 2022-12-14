@@ -5,7 +5,7 @@
         "dev": "mix",
         "watch": "mix watch",
         "prod": "mix --production",
-        "build": "php vendor/bin/jigsaw build",
+        "build": "npm run prod && php vendor/bin/jigsaw build",
         "start": "serve ./build_production"
     },
     "devDependencies": {
