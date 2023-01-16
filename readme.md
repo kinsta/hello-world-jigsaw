@@ -1,4 +1,5 @@
-![Frame 78 (6)](https://user-images.githubusercontent.com/2342458/194182219-586adce1-9fa5-456f-bc8b-79624adfa21e.png)
+![Photo by Alexander Grey on Unsplash](https://user-images.githubusercontent.com/2342458/212698237-c16fbf92-9986-4b22-8e17-f286584436a9.png)
+
 # Kinsta - Jigsaw Starter
 
 An example of how to set **Jigsaw** up to enable deployment on Kinsta App Hosting services.
