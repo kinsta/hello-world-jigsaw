@@ -12,25 +12,18 @@ Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it eas
 - [Database Hosting](https://kinsta.com/database-hosting)
 
 ## Dependency Management
-**Jigsaw** is based on Laravel. This means that it's a regular PHP-based application, so during the deployment process Kinsta will automatically install dependencies defined in your `composer.json` file.
+**Jigsaw** is based on Laravel. This means that it's a regular PHP-based application, so Kinsta automatically installs dependencies defined in your `composer.json` file during the deployment process.
 
 ## Required buildpacks
 > **Warning**
 > Your first deploy will fail in most cases because it won't have all the required **Buildbacks**. Remember to set them up after the first deployment.
 
-In most cases we want our application to also build our CSS/JS files we need to add two Buildpacks:
+In most cases you will want the application to also build the CSS/JS files; therefore, you need to add two Buildpacks:
 - PHP
 - Node JS
 
 ## Web Server Setup
-When deploying an application Kinsta will automatically create a web process with `npm start`. It can be later altered in the `Processes` tab in the UI.
+When deploying an application Kinsta automatically creates a web process with `npm start`. It can be later altered in the `Processes` tab in the UI.
 
 ## What is Jigsaw?
-**Jigsaw** is a framework for rapidly building static sites using the
-same modern tooling that powers your web applications.
-
-### Key Features
-- Blade templating, just like your Laravel apps.
-- Uses Markdown for content-driven pages.
-
-More info on the [Jigsaw](https://jigsaw.tighten.com/) website.
+Jigsaw is a static site framework that uses Blade templates to create your page layouts and Markdown to build your content within the templates so you can produce simple static sites without complex coding knowledge. More information is available on the [Jigsaw](https://jigsaw.tighten.com/) website.
